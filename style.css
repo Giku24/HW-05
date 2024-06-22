@@ -1,0 +1,106 @@
+
+.box{
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px #70c4cd ;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px ;
+}
+.box .price span{
+    background-color: #6E2594;
+    padding: 5px 15px 5px 5px;
+    display: inline-block;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.box .img{
+    text-align: center;
+    padding: 10px;
+}
+.box .contains h4 a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800
+}
+.box ul li{
+    color: #666;
+}
+.box .dis-price h4{
+    color: #ef4a23;
+    text-align: center;
+}
+.box .dis-price h4 span{
+    color: #666;
+    text-decoration: line-through;
+    padding: 5px;
+}
+.box .btn-group button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(6, 145, 140);
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.box-1{
+    background-image:url(https://static.displate.com/857x1200/displate/2023-04-24/a9b8a1ec04e2cee31f111c81f2b3368e_b5a5c6816b088645acdba9aa9f2dce6f.jpg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: outset;
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 10px;   
+    border-width: 20px;   
+    border-radius: 20px;  
+    border-color: #1c010f;
+    
+}
+.box-2{
+    width: 400px;
+    height: 400px;
+    background: repeating-linear-gradient(-45deg, black 0%, #F73800 10%, #475866 20%);
+    border-radius: 30px;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+.box-3{
+    width: 400px;
+    height: 400px;
+    background: repeating-radial-gradient(#95D04D 0%, #81C133 0%, #4C721E 10%, #162009 20%, #141F06 30%);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.box-4{
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(#110934,#FC600A,#110934, #FC600A,#9C6902);
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-left: 450px;
+}
+.box-5{
+    width: 400px;
+    height: 400px;
+    background: conic-gradient(#9C6902, #342609, #FBA90A);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.box-6{
+    width: 400px;
+    height: 400px;
+    background: repeating-conic-gradient(#E7F7D4 0%, #7FBD32 0%, #475866 0%, #FB8604 10%, #210934 20%);
+    margin-top: 10px;
+    margin-left: 450px;
+    border-radius: 20px;
+    
+}
